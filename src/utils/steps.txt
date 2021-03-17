@@ -1,0 +1,34 @@
+balance
+controler
+|
+creatte get method /balanceEnqire
+middleware
+|
+authencation
+|
+gets userid
+|
+service
+balance enq,ac ser,ac dao.
+|
+ac dao
+userid-findone(ac details)
+reurn balanc not complete obj
+{balance:---}
+
+MINI STATEMENT
+ac controller
+|
+creatte get method /ministatement
+middleware
+|
+authencation
+|
+gets userid
+|
+service
+balance enq,ac ser,ac dao.
+|
+ac dao
+userid-find(transaction model)
+reurn transaction model.find
